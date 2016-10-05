@@ -4,9 +4,15 @@
     <title>Game Client</title>
 <link href="style.css" rel="stylesheet" type="text/css"/>
 <script src="scripts/angular.min.js"></script>
+<script src="scripts/angular-ui-router.js"></script>
 <script src="scripts/ng-game.js"></script>
+ <script type="text/javascript" src="scripts/menu/index.js"></script>
+
 </head>
-<body>
+<body ng-app="app">
+    <div class="content">
+        <div ui-view></div>
+    </div>
 </body>
 </html>
 
